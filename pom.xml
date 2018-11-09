@@ -8,11 +8,11 @@
     <packaging>jar</packaging>
 
     <name>Spring Boot Jersey Blank Project (from https://github.com/making/spring-boot-jersey-blank)</name>
-	<scm>
-		<url>https://github.com/ramaws/github-maven-example</url>
-		<connection>scm:git:git://github.com/ramaws/github-maven-example.git</connection>
-		<developerConnection>scm:git:git@github.com:ramaws/github-maven-example.git</developerConnection>
-	</scm>
+    		<scm>
+                <url>https://github.com/ramaws/test-ram.git</url>
+                <connection>scm:git:git://github.com/ramaws/test-ram.git</connection>
+                <developerConnection>scm:git:git@github.com:ramaws/test-ram.git</developerConnection>
+        </scm>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
