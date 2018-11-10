@@ -12,6 +12,7 @@
                 <url>https://github.com/ramaws/test-ram.git</url>
                 <connection>scm:git:git://github.com/ramaws/test-ram.git</connection>
                 <developerConnection>scm:git:git@github.com:ramaws/test-ram.git</developerConnection>
+		<tag>HEAD</tag>
         </scm>
     <parent>
         <groupId>org.springframework.boot</groupId>
