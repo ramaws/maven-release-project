@@ -5,6 +5,7 @@
     <groupId>com.sample</groupId>
     <artifactId>SampleWebApp123</artifactId>
     <version>1.0.10-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <name>Spring Boot Jersey Blank Project (from https://github.com/making/spring-boot-jersey-blank)</name>
     		<scm>
@@ -30,10 +31,12 @@
 <distributionManagement>
   <repository>
     <id>releases</id>
+    <name>releases</name>
     <url>http://54.183.2.206:8081/nexus/content/repositories/releases</url>
   </repository>
  <snapshotRepository>
     <id>snapshots</id>
+    <name>SNAPSHOT</name> 
     <url>http://54.183.2.206:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
