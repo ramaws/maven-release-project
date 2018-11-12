@@ -4,7 +4,7 @@
 
     <groupId>com.sample</groupId>
     <artifactId>SampleWebApp123</artifactId>
-    <version>1.0.8-SNAPSHOT</version>
+    <version>1.0.8</version>
     <packaging>jar</packaging>
 
     <name>Spring Boot Jersey Blank Project (from https://github.com/making/spring-boot-jersey-blank)</name>
@@ -12,7 +12,7 @@
                 <url>https://github.com/ramaws/test-ram.git</url>
                 <connection>scm:git:git://github.com/ramaws/test-ram.git</connection>
                 <developerConnection>scm:git:git@github.com:ramaws/test-ram.git</developerConnection>
-        </scm>
+        	</scm>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
