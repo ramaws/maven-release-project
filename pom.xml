@@ -28,14 +28,16 @@
         <rest.assured.version>2.3.3</rest.assured.version>
     </properties>
 <distributionManagement>
-  <repository>
+  <releases>
     <id>releases</id>
+    <enabled>true</enabled>
     <url>http://54.183.2.206:8081/nexus/content/repositories/releases</url>
-  </repository>
- <repository>
+  </releases>
+ <snapshots>
     <id>snapshots</id>
+    <enabled>false</enabled>
     <url>http://54.183.2.206:8081/nexus/content/repositories/snapshots</url>
-  </repository>
+  </snapshots>
 </distributionManagement>
     <dependencies>
         <dependency>
