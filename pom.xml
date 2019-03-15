@@ -33,8 +33,6 @@
     <id>releases</id>
     <name>releases</name>
     <url>http://3.94.55.29:8081/nexus/content/repositories/releases</url>
-  </repository>
-  <repository>
  <snapshotRepository>
     <id>snapshots</id>
     <name>Snapshots</name> 
