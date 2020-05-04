@@ -29,14 +29,14 @@
         <rest.assured.version>2.3.3</rest.assured.version>
     </properties>
 <distributionManagement>
-  <repository>
+	<repository>
     <id>releases</id>
-    <name>releases</name>
-    <url>http://3.94.55.29:8081/nexus/content/repositories/releases</url>
-	</repository>
-    <snapshotRepository>
+    <url>http://34.228.192.88:8081/nexus/content/repositories/releases</url>
+  </repository>
+  <distributionManagement>
+  <snapshotRepository>
     <id>snapshots</id>
-    <url>http://3.94.55.29:8081/nexus/content/repositories/snapshots</url>
+    <url>http://34.228.192.88:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
     <dependencies>
