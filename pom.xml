@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sample</groupId>
-    <artifactId>SampleWebApp123</artifactId>
-    <version>1.0.13-SNAPSHOT</version>
+    <groupId>com.electronics</groupId>
+    <artifactId>mobile</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Spring Boot Jersey Blank Project (from https://github.com/making/spring-boot-jersey-blank)</name>
@@ -33,7 +33,6 @@
     <id>releases</id>
     <url>http://34.228.192.88:8081/nexus/content/repositories/releases</url>
   </repository>
-  <distributionManagement>
   <snapshotRepository>
     <id>snapshots</id>
     <url>http://34.228.192.88:8081/nexus/content/repositories/snapshots</url>
