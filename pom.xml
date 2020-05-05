@@ -4,7 +4,7 @@
 
     <groupId>com.electronics</groupId>
     <artifactId>mobile</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <name>Spring Boot Jersey Blank Project (from https://github.com/making/spring-boot-jersey-blank)</name>
@@ -33,6 +33,10 @@
     <id>snapshots</id>
     <url>http://35.168.17.103:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
+  <repository>
+    <id>releases</id>
+    <url>http://35.168.17.103:8081/nexus/content/repositories/releases</url>
+  </repository>
 </distributionManagement>
     <dependencies>
         <dependency>
