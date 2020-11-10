@@ -14,8 +14,8 @@ pipeline {
         }
         stage ('build'){
             tools {
-  maven 'maven_3.6.3'
-                    }
+  maven 'maven 3.5.3'
+}
             steps {
                 sh " mvn clean install"
             }
