@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('clone'){
             steps {
-            git credentialsId: 'git_credentials', url: 'https://github.com/ramaws/maven-release-project.git'
+            git credentialsId: 'ram_github_credentials', url: 'https://github.com/ramaws/maven-release-project.git'
             }
         }
                stage ('verfication') {
@@ -14,8 +14,8 @@ pipeline {
         }
         stage ('build'){
             tools {
-  maven 'maven 3.5.3'
-}
+  maven 'maven-3.8.1'
+                    }
             steps {
                 sh " mvn clean install"
             }
